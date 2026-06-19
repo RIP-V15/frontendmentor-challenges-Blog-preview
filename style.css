@@ -44,7 +44,7 @@ body{
 
     font-size: clamp(0.75rem, 1rem, 1.25rem);
     
-    margin-block-start: calc(10vh + 1rem);
+    margin-block-start: calc(10vh+1rem);
 
     color: var(--grayish);
 }
@@ -58,7 +58,7 @@ body{
 
     background-color: var(--primary-yellow);
 
-    padding: 0.5rem;
+    padding: clamp(0.2rem, 0.3rem, 0.4rem);
 
     border-radius: 0.3rem;
 
@@ -68,14 +68,14 @@ body{
 .date{
 
     color: var(--blackish);
-    margin: 0rem;
-    margin-block-end: 0.3rem;
+    margin: 0;
+    margin-block-end: clamp(0.2rem, 0.3rem, 0.4rem);
 }
 .HTML{
 
     font-size: clamp(1.25rem, 1.5rem, 1.75rem);
     font-weight: 800;
-    margin: 0.3rem;
+    margin:clamp(0.2rem, 0.3rem, 0.4rem);
 }
 .name{
 
@@ -87,8 +87,7 @@ body{
    display: flex;
     align-items: center;
 
-    gap: 1rem;
-    margin-block-start: auto;
+    gap: clamp(0.9rem, 1rem, 1.1rem);
 }
 .avatar{
 
