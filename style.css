@@ -77,6 +77,9 @@ body{
     font-weight: 800;
     margin:clamp(0.2rem, 0.3rem, 0.4rem);
 }
+.HTML:hover{
+    color:var(primary-yellow);
+}
 .name{
 
     font-weight: 800;
