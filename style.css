@@ -5,7 +5,7 @@ body{
     font-family: 'Fittree', sans-serif;
     
 }
-#parent{
+.parent{
     
     min-width: 100vw;
     min-height: 100vh;
@@ -15,16 +15,16 @@ body{
     align-items: center;
 }
 
-#Window{
+.Window{
 
     background-color: white;
 
-    padding: 15px;
+    padding: clamp(0.75rem, 1rem, 1.25rem);
     
-    border: 1.5px solid black;
-    border-radius: 15px;
+    border: 0.1rem solid black;
+    border-radius: 1em;
 
-    box-shadow: 5px 5px;
+    box-shadow: 0.3rem 0.3rem;
 
     display: flex;
     justify-content: center;
@@ -32,59 +32,60 @@ body{
     flex-direction: column;
 
 }
-#ending-p{
+.ending-p{
 
-    font-size: 16px;
+    font-size: 1rem;
     
-    margin-top: 5px;
+    margin-block-start: 0.3rem;
 
     color: hsl(0, 0%, 42%);
 }
 .img{
 
-    border-radius: 15px;
+    border-radius: 1rem;
 }
-#header{
+.header{
 
     
 
     background-color: hsl(47, 88%, 63%);
 
-    padding: 8px;
+    padding: 0.5rem;
 
-    border-radius: 5px;
+    border-radius: 0.3rem;
 
     font-weight: 800;
 
 }
-#date{
+.date{
 
     color: hsl(0, 0%, 7%);
-    margin: 0px;
-    margin-bottom: 5px;
+    margin: 0rem;
+    margin-bottom: 0.3rem;
 }
-#HTML{
+.HTML{
+
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0.3rem;
+}
+.name{
 
     font-weight: 800;
-    margin: 5px;
+    font-size: 1rem;
 }
-#name{
-
-    font-weight: 800;
-    font-size: 14px;
-}
-#sec-Div{
+.sec-Div{
 
     display: flex;
   align-items: center;
 
-  gap: 12px;
+  gap: 1rem;
   margin-top: auto;
 }
-#avatar{
+.avatar{
 
-    width: 32px;
-  height: 32px;
+    width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   object-fit: cover;
 }
